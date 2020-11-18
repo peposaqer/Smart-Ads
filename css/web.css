@@ -84,7 +84,7 @@ nav a:hover {
 /* start header */
 
 .header {
-    background: url(../img/main-image@2x.png);
+    background: url(img/main-image@2x.png);
     height: 160vh;
     width: 100%;
     background-size: cover;
@@ -120,7 +120,7 @@ nav a:hover {
 /* start about */
 
 .about {
-    background: url(../img/bg-pattern.svg);
+    background: url(img/bg-pattern.svg);
     margin-bottom: 7rem;
     margin-top: 5rem;
 }
@@ -354,7 +354,7 @@ nav a:hover {
 /* start Contact */
 
 .Contact {
-  background: url(../img/contact@2x.png);
+  background: url(img/contact@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
