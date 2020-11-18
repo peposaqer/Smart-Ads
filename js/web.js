@@ -195,7 +195,8 @@ function arabicLang() {
   $(".header h1").css({ "text-align": "right" });
   $(".header h2").css({ "text-align": "right" });
   $(".header p").css({ "text-align": "right" });
-  $("nav ul").css({ float: "right" });
+  $("nav ul").css({"margin-right": "auto" });
+  $("nav ul").css({ "margin-left": "0" });
 
   // Function To Dismiss Progress Ring
   // dismissProgress();
@@ -231,6 +232,8 @@ function englishLang() {
   $("#contact_copy").text(language.contact_copy);
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
+  $("nav ul").css({ "margin-left": "auto" });
+  $("nav ul").css({ "margin-right": "0" });
 
   // Function To Dismiss Progress Ring
   // dismissProgress();
