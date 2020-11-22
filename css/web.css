@@ -411,6 +411,15 @@ nav a:hover {
   margin-right: 3%;
 }
 
+.Contact i {
+  color: #233e6a;
+}
+
+.Contact i:hover {
+  color: #FFF;
+}
+
+
 .Contact ul li {
   display: inline-block;
   text-align: center;
