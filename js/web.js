@@ -269,6 +269,7 @@ function englishLang() {
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
   $("nav ul").css({ "margin-left": "auto" });
   $("nav ul").css({ "margin-right": "0" });
+  $(".Contact ul").css({ "margin-left": "0rem" });
     $(".en").hide();
     $(".arbic").show();
 
