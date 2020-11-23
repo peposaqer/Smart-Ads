@@ -3,6 +3,7 @@ body {
     background-color: #F8FCFD;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    background: url(../img/bg-pattern.svg);
 }
 
 .right-dir {
@@ -85,9 +86,10 @@ nav a:hover {
 
 .header {
     background: url(../img/main-image@2x.png);
-    height: 160vh;
+    height: 146vh;
     width: 100%;
     background-size: cover;
+  background-repeat: no-repeat ;
     color: #FFF;
     /* background-repeat: no-repeat; */
 }
@@ -120,7 +122,6 @@ nav a:hover {
 /* start about */
 
 .about {
-    background: url(../img/bg-pattern.svg);
     margin-bottom: 7rem;
     margin-top: 5rem;
 }
@@ -190,16 +191,19 @@ nav a:hover {
   font-size: 14px;
   color: #000;
   line-height: 1.2;
+  margin-top: .5rem;
 }
 
 .why .porta h5 {
   text-align: center;
   font-size: 16px;
   font-weight: 900;
+  margin-top: 1rem;
 }
 
 .why .porta img {
   text-align: center;
+  margin-top: 2rem;
 }
 
 /* end why */
@@ -246,9 +250,9 @@ nav a:hover {
     padding-left: 4rem;
     padding-right: 4rem;
     text-decoration: none;
-    background-color: #009BDB;
+    background-color: #042E7F;
     font-size: 14px;
-    border-radius: 24px;
+    border-radius: 3px;
     border: none;
     margin-top: 2rem;
 }
