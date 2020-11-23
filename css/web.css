@@ -431,7 +431,7 @@ nav a:hover {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  align-self: center;
+  align-self: center; 
   color: #fff;
 }
 
