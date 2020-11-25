@@ -3,7 +3,7 @@ body {
     background-color: #F8FCFD;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
-    background: url(../img/bg-pattern.svg);
+    /* background: url(../img/bg-pattern.svg); */
 }
 
 .right-dir {
@@ -89,9 +89,8 @@ nav a:hover {
     height: 146vh;
     width: 100%;
     background-size: cover;
-  background-repeat: no-repeat ;
+    background-repeat: no-repeat ;
     color: #FFF;
-    /* background-repeat: no-repeat; */
 }
 
 .header .group {
@@ -376,6 +375,7 @@ nav a:hover {
   color: #FFF;
   /* background-color: #042E7F; */
   position: relative;
+  margin-bottom: 3rem;
 }
 
 
@@ -519,6 +519,28 @@ nav a:hover {
   }
 
   
+  .navbar ul li {
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .navbar .container {
+    background-color: #4b40cf;
+    opacity: .8;
+  }
+/* 
+  .navbar {
+    background-color: #4b40cf;
+  } */
+
+  .navbar ul {
+    text-align: center;
+    float: none;
+  }
+
   .header {
     background-position: center;
   }
@@ -621,9 +643,6 @@ nav a:hover {
     font-size: 20px;
   }
 
-  .Contact {
-    margin-bottom: -2rem;
-  }
 
   .Contact .send {
     width: 70%;
@@ -643,6 +662,29 @@ nav a:hover {
   .header .h1 {
     font-size: 20px;
   }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .navbar ul li {
+    text-align: center;
+  }
+
+  .navbar .container {
+    background-color: #4b40cf;
+    opacity: .8;
+  }
+/* 
+  .navbar {
+    background-color: #4b40cf;
+  } */
+
+  .navbar ul {
+    text-align: center;
+    float: none;
+  }
+
 
   .header p {
     font-size: 12px;
@@ -757,6 +799,28 @@ nav a:hover {
   .about p {
     font-size: 13px;
   }
+  .navbar ul li {
+    text-align: center;
+  }
+
+  .navbar .container {
+    background-color: #4b40cf;
+    opacity: .8;
+  }
+/* 
+  .navbar {
+    background-color: #4b40cf;
+  } */
+
+  .nav-link {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    text-align: center;
+    float: none;
+  }
+
 
   .header {
     background-position: center;
