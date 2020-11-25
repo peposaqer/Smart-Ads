@@ -233,8 +233,13 @@ function arabicLang() {
   $(".header").css({ height: "146vh" });
   $(".header").css({ "background-position": "center" });
   $("nav ul").css({ "margin-left": "auto" });
+  $("nav ul").css({ "padding": "0" });
+  $("nav ul li").css({ "align-self": "center" });
+  $("nav ul li").css({ "padding": "0" });
   $(".Contact ul").css({ "margin-left": "3rem" });
-  $(".why .porta p").css({"margin-right": ".5rem"});
+  // $(".why .porta p").css({"margin-right": ".5rem"});
+  // document.querySelector("style").textContent +=
+  //   "@media screen and (max-width:768px) {nav ul { align-item: center }}";
 
   // Function To Dismiss Progress Ring
   // dismissProgress();
