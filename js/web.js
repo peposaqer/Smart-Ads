@@ -233,6 +233,7 @@ function arabicLang() {
   $(".header").css({ height: "146vh" });
   $(".header").css({ "background-position": "center" });
   $(".why .porta").css({"margin-right": ".7rem"});
+  $(".why .porta").css({ "margin-left": "0rem" });
   $("nav ul").css({ "margin-left": "auto" });
   $("nav ul").css({ "padding": "0" });
   $("nav ul li").css({ "align-self": "center" });
