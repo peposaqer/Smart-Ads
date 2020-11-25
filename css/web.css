@@ -308,6 +308,10 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
+.swiper-wrapper {
+  margin-bottom: 1rem;
+}
+
 .Testimonials .swiper-slide {
   color: #000;
   background-color: #FFF;
