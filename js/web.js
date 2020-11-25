@@ -232,6 +232,7 @@ function arabicLang() {
   $(".header").css({ "background-size": "cover" });
   $(".header").css({ height: "146vh" });
   $(".header").css({ "background-position": "center" });
+  $(".why .porta").css({"margin-right": ".7rem"});
   $("nav ul").css({ "margin-left": "auto" });
   $("nav ul").css({ "padding": "0" });
   $("nav ul li").css({ "align-self": "center" });
@@ -294,6 +295,9 @@ function englishLang() {
   $("nav ul").css({ "margin-left": "auto" });
   $("nav ul").css({ "margin-right": "0" });
   $(".Contact ul").css({ "margin-left": "0rem" });
+  $(".header h1").css({ "text-align": "left" });
+  $(".header h2").css({ "text-align": "left" });
+  $(".header p").css({ "text-align": "left" });
   $(".header").css({ "background": " url(img/main-image@2x.png)" });
   $(".header").css({ "background-position": "center" });
   $(".header").css({ "background-size": "cover" });
