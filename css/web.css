@@ -513,6 +513,13 @@ nav a:hover {
   color: #FFF;
 }
 
+.viwe {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-bottom: .3rem;
+}
+
 /* end Contact */
 /* start madia */
 
